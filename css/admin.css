@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+root{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+#main-content .wrapper h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #F6F1E9;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.active{
+    background: #222;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #FF7B54;
+    border-radius: 30px 0px 0px 30px;
+}
+
+#header .wrapper li{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper{
+    padding: 15px;
+    width:80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid #222;
+    padding: 1%;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+
+.btn-primary{
+    background-color: #FFD56F;
+    color: #2C3333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.btn-primary:hover{
+    background-color: #0E8388;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-blue{
+    background-color: #19A7CE;
+    color: #2C3333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.btn-blue:hover{
+    background-color: #009FBD;
+    color: #F6F1F1;
+    transition: 0.5s;
+}
+
+.btn-primary:hover{
+    background-color: #0E8388;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-secondary{
+    background-color: #FFD56F;
+    color: #2C3333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+    padding-top: 15px;
+}
+
+.btn-secondary:hover{
+    background-color: #0E8388;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    color: #2C3333;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 7px 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.center{
+    border-spacing: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.success{
+    color: #0E8388;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+  
+.error{
+    color: #ff4757;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.success1{
+    color: #0E8388;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.error1{
+    color: #ff4757;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.pick-up{
+    color: #19A7CE;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.ordered{
+    color: #0E8388;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.menu{
+    border-bottom: 1px solid #FFB26B;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    text-align: left;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #222;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover{
+    color: #FFB26B;
+
+}
+
+.menu ul li i{
+    font-size: 13px;
+    text-align: center;
+    padding-right: 5px;
+    cursor: pointer;
+    display: inline;
+}
+
+.main-content{
+    background-color: #FFB26B;
+    padding: 3%;
+}
+
+.main-content h1{
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.col-4{
+    width: 18%;
+    background-color: #FFf;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+.footer {
+    background-color: #FFD56F;
+    color: white;
+}
+
+.footer p{
+    color: #222;
+}
+
